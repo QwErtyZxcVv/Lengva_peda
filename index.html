@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="lt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lengva pėda | Pėdų ir nagų priežiūra Klaipėdoje</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="container header__container">
+      <div class="logo">
+        <span class="logo__title">Lengva pėda</span>
+        <span class="logo__subtitle" data-lt="pėdų ir nagų priežiūra" data-ua="догляд за стопою та нігтями">pėdų ir nagų priežiūra</span>
+      </div>
+      <div class="lang-switch">
+        <button class="lang-btn active" onclick="switchLang('lt', event)">LT</button>
+        <button class="lang-btn" onclick="switchLang('ua', event)">UA</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <div class="container hero__container">
+      <div class="hero__image-wrapper">
+        <img src="img/Nataliia.jpg" alt="Nataliia Melnyk Podologė" class="hero__img">
+      </div>
+      <div class="hero__badge" data-lt="Podologijos kabinetas Klaipėdoje" data-ua="Кабінет подології в Клайпеді">Podologijos kabinetas Klaipėdoje</div>
+      <h1 class="hero__title" data-lt="Gyventi lengvai, žengti laisvai! 👣" data-ua="Живи легко, крокуй вільно! 👣">Gyventi lengvai, žengti laisvai! 👣</h1>
+      <p class="hero__subtitle" data-lt="Saugus aparatinis pedikiūras, įaugusių nagų, grybelinių pažeidimų ir pėdų problemų sprendimas." data-ua="Безпечний апаратний педикюр, рішення проблем врослих нігтів, грибкових уражень та стоп.">
+        Saugus aparatinis pedikiūras, įaugusių nagų, grybelinių pažeidimų ir pėdų problemų sprendimas.
+      </p>
+      <button class="btn btn--primary open-modal-btn" data-lt="Registruotis priėmimui" data-ua="Записатися на прийом">Registruotis priėmimui</button>
+    </div>
+  </section>
+
+  <!-- COSMETICS BLOCK -->
+  <section class="cosmetics">
+    <div class="container">
+      <div class="cosmetics__grid">
+        <div class="cosmetics__card">
+          <img src="img/Podopharm.jpg" alt="Podopharm kosmetika" class="cosmetics__img">
+          <div class="cosmetics__info">
+            <h3 data-lt="Profesionali kosmetika" data-ua="Професійна косметика">Profesionali kosmetika</h3>
+            <p data-lt="Sertifikuotos priemonės nagų ir odos atstatymui." data-ua="Сертифіковані засоби для відновлення нігтів та шкіри.">Sertifikuotos priemonės nagų ir odos atstatymui.</p>
+          </div>
+        </div>
+        <div class="cosmetics__card">
+          <img src="img/Procedur.jpg" alt="Suda Care" class="cosmetics__img">
+          <div class="cosmetics__info">
+            <h3 data-lt="Vokiška kokybė" data-ua="Німецька якість">Vokiška kokybė</h3>
+            <p data-lt="Pažangūs preparatai saugiai Jūsų pėdų sveikatai." data-ua="Передові препарати для безпечного здоров'я ваших стоп.">Pažangūs preparatai saugiai Jūsų pėdų sveikatai.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES & PRICES -->
+  <section class="services">
+    <div class="container">
+      <h2 class="section-title" data-lt="Paslaugos ir kainos" data-ua="Послуги та ціни">Paslaugos ir kainos</h2>
+      <div class="price-list">
+        
+        <div class="price-item">
+          <div class="price-item__info">
+            <h3 data-lt="Pirmoji konsultacija" data-ua="Первинна консультація">Pirmoji konsultacija</h3>
+          </div>
+          <span class="price-item__cost">25 €</span>
+        </div>
+
+        <div class="price-item">
+          <div class="price-item__info">
+            <h3 data-lt="Higieninis pedikiūras" data-ua="Гігієнічний педикюр">Higieninis pedikiūras</h3>
+          </div>
+          <span class="price-item__cost">40 €</span>
+        </div>
+
+        <div class="price-item">
+          <div class="price-item__info">
+            <h3 data-lt="Pirštų apdorojimas (be problemų)" data-ua="Обробка пальчиків (без проблематики)">Pirštų apdorojimas (be problemų)</h3>
+          </div>
+          <span class="price-item__cost">30 €</span>
+        </div>
+
+        <div class="price-item price-item--featured">
+          <div class="price-item__info">
+            <h3 data-lt="Pilnas medicininis pedikiūras" data-ua="Апаратний медичний педикюр">Pilnas medicininis pedikiūras</h3>
+            <p data-lt="Su problema + konsultacija" data-ua="З проблематикою + консультація">Su problema + konsultacija</p>
+          </div>
+          <span class="price-item__cost">nuo 45 €</span>
+        </div>
+
+        <div class="price-item">
+          <div class="price-item__info">
+            <h3 data-lt="Įaugusio nago pašalinimas / rezekcija" data-ua="Резекція врослого нігтя">Įaugusio nago pašalinimas / rezekcija</h3>
+          </div>
+          <span class="price-item__cost">45 €</span>
+        </div>
+
+        <div class="price-item">
+          <div class="price-item__info">
+            <h3 data-lt="Korekcinė sistema (Titano siūlas / Arkada)" data-ua="Корекційна система (Титанова нитка / Arkada)">Korekcinė sistema (Titano siūlas / Arkada)</h3>
+          </div>
+          <span class="price-item__cost">40 €</span>
+        </div>
+
+        <div class="price-item">
+          <div class="price-item__info">
+            <h3 data-lt="Nuospaudų / kietųjų odos sluoksnių šalinimas" data-ua="Видалення мозолів та натоптишів">Nuospaudų / kietųjų odos sluoksnių šalinimas</h3>
+          </div>
+          <span class="price-item__cost">nuo 20 €</span>
+        </div>
+
+        <div class="price-item">
+          <div class="price-item__info">
+            <h3 data-lt="Įtrūkimų priežiūra" data-ua="Обробка тріщин на стопі">Įtrūkimų priežiūra</h3>
+          </div>
+          <span class="price-item__cost">nuo 30 €</span>
+        </div>
+
+        <div class="price-item">
+          <div class="price-item__info">
+            <h3 data-lt="Grybelio pažeisto nago tvarkymas (1 nagas)" data-ua="Обробка уражених грибком нігтів (1 ніготь)">Grybelio pažeisto nago tvarkymas (1 nagas)</h3>
+          </div>
+          <span class="price-item__cost">nuo 20 €</span>
+        </div>
+
+        <div class="price-item">
+          <div class="price-item__info">
+            <h3 data-lt="Senatvinių nagų gydymas (onichogrifozė)" data-ua="Обробка оніхогрифозу">Senatvinių nagų gydymas (onichogrifozė)</h3>
+          </div>
+          <span class="price-item__cost">95 €</span>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- LOCATION & CONTACTS -->
+  <section class="contacts">
+    <div class="container">
+      <h2 class="section-title" data-lt="Kontaktai ir vieta" data-ua="Контакти та адреса">Kontaktai ir vieta</h2>
+      <div class="contacts__card">
+        <div class="contacts__item">
+          <span class="contacts__icon">📍</span>
+          <div>
+            <strong>Klaipėda</strong>
+            <p>Taikos pr. 73, GS "Tėja"</p>
+          </div>
+        </div>
+        <div class="contacts__item">
+          <span class="contacts__icon">📞</span>
+          <div>
+            <strong>Telefonas</strong>
+            <p><a href="tel:+37067144064">+370 671 44 064</a></p>
+          </div>
+        </div>
+      </div>
+      <div style="text-align: center; margin-top: 20px;">
+        <button class="btn btn--primary open-modal-btn" data-lt="Užsiregistruoti vizitui" data-ua="Записатися на прийом">Užsiregistruoti vizitui</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer__container">
+      <p>© Lengva pėda. Nataliia Melnyk Podologė</p>
+      <div class="socials">
+        <a href="https://www.instagram.com/podolog.melnyk" target="_blank" rel="noopener">Instagram</a>
+        <a href="https://www.facebook.com/Nataliia.Melnyk.Podolog" target="_blank" rel="noopener">Facebook</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- MODAL SELECTION -->
+  <div class="modal" id="contactModal">
+    <div class="modal__content">
+      <button class="modal__close" id="closeModal">&times;</button>
+      <h3 class="modal__title" data-lt="Pasirinkite patogų būdą registracijai" data-ua="Оберіть зручний спосіб для запису">Pasirinkite patogų būdą registracijai</h3>
+      <div class="modal__buttons">
+        <a href="https://t.me/+37067144064" target="_blank" class="messenger-btn messenger-btn--telegram">Telegram</a>
+        <a href="viber://chat?number=%2B37067144064" target="_blank" class="messenger-btn messenger-btn--viber">Viber</a>
+        <a href="https://wa.me/37067144064" target="_blank" class="messenger-btn messenger-btn--whatsapp">WhatsApp</a>
+        <a href="tel:+37067144064" class="messenger-btn messenger-btn--phone" data-lt="Skambinti +37067144064" data-ua="Зателефонувати +37067144064">Skambinti +37067144064</a>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
